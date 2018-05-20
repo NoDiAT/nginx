@@ -1,0 +1,9 @@
+[submodule "stable/ngx_brotli"]
+	path = stable/ngx_brotli
+	url = https://github.com/google/ngx_brotli.git
+[submodule "stable/ngx_ldap"]
+	path = stable/ngx_ldap
+	url = https://github.com/kvspb/nginx-auth-ldap.git
+[submodule "stable/ngx_fancyindex"]
+	path = stable/ngx_fancyindex
+	url = https://github.com/aperezdc/ngx-fancyindex.git
