@@ -64,6 +64,7 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 		libc-dev \
 		make \
 		openssl-dev \
+		openldap-dev \
 		pcre-dev \
 		zlib-dev \
 		linux-headers \
