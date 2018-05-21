@@ -7,7 +7,6 @@ ENV NGINX_VERSION 1.14.0
 COPY ngx_brotli /usr/src/ngx_brotli
 COPY ngx_ldap /usr/src/ngx_ldap
 COPY ngx_fancyindex /usr/src/ngx_fancyindex
-COPY ngx_pagespeed /usr/src/ngx_pagespeed
 
 RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 	&& CONFIG="\
